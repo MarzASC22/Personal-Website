@@ -1,0 +1,28 @@
+body{
+    background: white;
+    color: black;
+    font-family: Helvetica;
+    padding: 5px;
+}
+
+#Title{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.Center_Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    
+    
+}
+
+.Trinidad_Food{
+    display: flex;
+    background-color: gray; 
+    justify-content: space-evenly;
+    width: 15%;
+}
