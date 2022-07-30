@@ -1,28 +1,59 @@
 body{
-    background: white;
-    color: black;
+    background: rgb(31, 43, 43);
+    color: rgb(0, 0, 0);
     font-family: Helvetica;
     padding: 5px;
 }
 
 #Title{
-    display: flex;
+    display: block;
     background-color: white;
-    justify-content: center;
+    
+    
+    text-align:center;
+    border: 5px solid black;
+    margin:50px;
+
 }
 
 .Center_Image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:20%;
-    
+    max-width: 50%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+
+#Trinidad_Roti{
+    background-color: rgb(253, 253, 255);
+    border: 5px solid black;
     
 }
 
+#Trinidad_Macaroni{
+    background-color: white;
+    border: 5px solid black;
+}
+
+#Trinidad_Doubles{
+    background-color: white;
+    border: 5px solid black;
+}
+
+#Trinidad_BakeandShark{
+    background-color: white;
+    border: 5px solid black;
+}
+
 .Trinidad_Food{
-    display: flex;
-    background-color: gray; 
+    
+    
     justify-content: space-evenly;
-    width: 15%;
+    width: 30%;
+    flex-direction:row;
+    display: flex;
+}
+
+p {
+    font-size: 150%
 }
