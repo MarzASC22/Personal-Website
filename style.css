@@ -30,9 +30,17 @@ body{
     
 }
 
+#Trinidad_Roti:hover{
+    border:8px solid paleturquoise
+}
+
 #Trinidad_Macaroni{
     background-color: white;
-    border: 5px solid black;
+    border: 5px solid black
+}
+
+#Trinidad_Macaroni:hover{
+    border:8px solid paleturquoise
 }
 
 #Trinidad_Doubles{
@@ -40,9 +48,17 @@ body{
     border: 5px solid black;
 }
 
+#Trinidad_Doubles:hover{
+    border:8px solid paleturquoise
+}
+
 #Trinidad_BakeandShark{
     background-color: white;
     border: 5px solid black;
+}
+
+#Trinidad_BakeandShark:hover{
+    border:8px solid paleturquoise
 }
 
 .Trinidad_Food{
